@@ -4,6 +4,6 @@ Warmap takes a Kismet gpsxml or Aerodump gps file and a set of BSSIDs and create
 
 ##Usage:##
 
-go run warmap -f [Kismet gpsxml or Aerodump gps file] -a [boolean switch if youre using Aerodump output] -b [File of Comma-seperated List of BSSIDs] -o [HTML output file]
+go run warmap -f [Kismet gpsxml or Aerodump gps file] -a [boolean switch if youre using Aerodump output] -b [File (one BSSID per line) or Comma-seperated List of BSSIDs] -o [HTML output file]
 
 Binaries for all platforms can be found <a href="https://github.com/rmikehodges/warmap-go/releases">here</a>
